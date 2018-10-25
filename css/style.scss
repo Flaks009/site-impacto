@@ -63,12 +63,13 @@ $theme-colors: (
   warning: $yellow,
   danger: $red,
   light: $gray-100,
-  dark: $gray-800,
+  dark: $black,
     snowh : $snow,
 ) !default;
 
 
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 
 .gradiente{
     
@@ -78,6 +79,12 @@ $theme-colors: (
 .inversegradi{
     
      background-image: linear-gradient(#FFFAFA, #343a40);
+    
+}
+
+.navbar{
+    
+font-family: 'Audiowide', cursive;
     
 }
 
