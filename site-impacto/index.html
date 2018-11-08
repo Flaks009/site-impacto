@@ -7,57 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Impacto</title>
 </head>
 
-<body class="bg-secondary">
+<body class="gradiente">
 
     <!-- Código do Menu -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-gradient-dark font-weight-bold">
+    <nav class="navbar navbar-expand-md font-weight-bold inversegradi">
 
         <div class="container">
 
             <img class="navbar-brand" src="img/logo1.png" alt="logo">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSite">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSite">
 
-                <ul class="navbar-nav mx-auto">
+                <ul class="nav nav-tabs flex-column flex-sm-row mx-auto">
 
-
+                    
                     <li class="nav-item">
-                        <a class="nav-link" href="#">A empresa</a>
+                        <h6><a class="nav-link text-dark active border border-dark flex-sm-fill" href="index.html" style="background-color:#4682B4">HOME</a></h6>
+                    </li>
+                    <li class="nav-item">
+                        <h6><a class="nav-link text-dark flex-sm-fill" href="empresa.html">A EMPRESA</a></h6>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Como Chegar</a>
+                        <h6><a class="nav-link text-dark flex-sm-fill" href="como-chegar.html">COMO CHEGAR</a></h6>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <h6><a class="nav-link text-dark flex-sm-fill" href="contato.html">CONTATO</a></h6>
                     </li>
 
                     <li class="nav-item dropdown">
-
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a>
-
-                        <div class="dropdown-menu">
-
-                            <a class="dropdown-item" href="#">fACEBOOK</a>
-                            <a class="dropdown-item" href="#">tWITTER</a>
-
-                        </div>
-                    </li>
 
                 </ul>
 
@@ -65,205 +53,99 @@
         </div>
     </nav>
     <!-- Fim do código do Menu -->
-    <!-- Código do carrossel -->
-    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+    <div class="container-fluid no-padding">
 
-        <ol class="carousel-indicators">
+        <img src="img/depositphotos_95060176-stock-photo-businessman-digital-interface.jpg" style="width:100%; height: 400px">
 
-
-            <li data-target="carouselSite" data-slide-to="0" class="active"></li>
-            <li data-target="carouselSite" data-slide-to="1"></li>
-            <li data-target="carouselSite" data-slide-to="2"></li>
-
-        </ol>
-
-
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-
-                <img src="img/img-01.jpg" class="img-fluid d-block">
-
-                <div class="carousel-caption d-none d-md-block text-weight-bold">
-
-                    <h3>Imagem - 1</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing</p>
-
-
-                </div>
-
-            </div>
-            <div class="carousel-item">
-
-                <img src="img/img-02.png" class="img-fluid d-block">
-
-                <div class="carousel-caption d-none d-md-block">
-
-                    <h3>Imagem - 2</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing</p>
-
-                </div>
-
-            </div>
-
-            <div class="carousel-item">
-
-                <img src="img/img-04.fw.png" class="img-fluid d-block">
-
-                <div class="carousel-caption d-none d-md-block">
-
-                    <h3>Imagem - 3</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing</p>
-
-                </div>
-
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
-
-                <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">Anterior</span>
-
-            </a>
-            <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
-
-                <span class="carousel-control-next-icon"></span>
-                <span class="sr-only">Avançar</span>
-
-            </a>
-
-        </div>
 
     </div>
-    <!-- Fim do código do carrossel -->
+    <div class="container-fluid mt-3 mb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md mx-auto mb-4">
+                    <div class="card border border-dark h-100">
+                        <img src="img/manutencao-computadores-notebooks.png" class="card-img-top bg-primary">
+                        <div class="card-header text-center bg-dark text-white">
+                            <h4 class="cardh">Computadores</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                        </div>
+                        <div class="card-footer"><button type="button" class="btn btn-primary float-right">Saiba mais</button></div>
+                    </div>
+                </div>
+                <div class="col-md mx-auto mb-4">
+                    <div class="card border border-dark">
+                        <img src="img/slide_cftv.png" class="card-img-top bg-primary">
+                        <div class="card-header text-center font-weight-bold bg-dark text-white cardh">
+                            <h4>Câmeras e Alarmes</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                        </div>
+                        <div class="card-footer"><button type="button" class="btn btn-primary float-right">Saiba mais</button></div>
+                    </div>
+                </div>
 
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-6 text-justify my-5">
-                <h1 class="display-3 ml-auto mb-4">PC<img src="img/desktop.png" class="float-right"></h1>
-
-
-                <ul class="list-group list-group-flush bg-secondary">
-                    <li class="list-group-item bg-secondary">Manutenção de Desktops e Servidores</li>
-                    <li class="list-group-item bg-secondary">Virtualização de servidores</li>
-                    <li class="list-group-item bg-secondary">Outsourcing</li>
-                    <li class="list-group-item bg-secondary">Segurança</li>
-                    <li class="list-group-item bg-secondary">Help Desk</li>
-                    <li class="list-group-item bg-secondary">Redes</li>
-                </ul>
-
-            </div>
-
-
-            <div class="col-md-6 text-justify my-5">
-                <h1 class="display-3 ml-auto mb-4">CFTV<img src="img/cam.png" class="float-right"></h1>
-
-
-                <ul class="list-group list-group-flush bg-secondary">
-                    <li class="list-group-item bg-secondary">Câmeras de segurança</li>
-                    <li class="list-group-item bg-secondary">Monitoramento</li>
-                    <li class="list-group-item bg-secondary">Empresarial</li>
-                    <li class="list-group-item bg-secondary">Residencial</li>
-                    <li class="list-group-item bg-secondary">Equipamentos</li>
-                    <li class="list-group-item bg-secondary">Rede</li>
-                </ul>
-
-
+                <div class="col-md mx-auto mb-4">
+                    <div class="card border border-dark">
+                        <img src="img/shutterstock_234708769-e1460378755559.jpg" class="card-img-top bg-primary">
+                        <div class="card-header text-center font-weight-bold bg-dark text-white cardh">
+                            <h4>Estrutura de redes</h4>
+                        </div>
+                        <div clas="card-body">
+                            <div class="card-body">
+                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                            </div>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary float-right" href="#" role="button">Saiba mais</a></div>
+                    </div>
+                </div>
             </div>
         </div>
-
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid page-footer font-small d-flex bg-dark">
         <div class="container">
             <div class="row">
+                <div class="col-md mx-auto">
 
-                <div class="col-md-6 text-justify my-5">
-                    <h1 class="display-3 ml-auto mb-4">Redes<img src="img/wifi.png" class="float-right"></h1>
-
-
-                    <ul class="list-group list-group-flush bg-secondary">
-                        <li class="list-group-item bg-secondary">Cat 5</li>
-                        <li class="list-group-item bg-secondary">Cat 6</li>
-                        <li class="list-group-item bg-secondary">Cat 7</li>
-                        <li class="list-group-item bg-secondary">Montagem de Racks</li>
-                        <li class="list-group-item bg-secondary">Redes Wireless</li>
-                        <li class="list-group-item bg-secondary">Redes Cabeadas</li>
-                    </ul>
-
+                    <h6 class="font-weight-bold text-white py-2 text-center cardh">CONTATO</h6>
+                    <div class="text-center mb-4">
+                        <img src="img/ICON/facebook_circle-512.png" class="img-responsive" style="height: 50px;width: 50px">
+                        <img src="img/ICON/md_5b321c98efaa6.png" class="img-responsive" style="height: 50px;width: 50px">
+                        <img src="img/ICON/Skype-512.png" class="img-responsive" style="height: 50px;width: 50px">
+                        <img src="img/ICON/Telephone-icon.png" class="img-responsive" style="height: 50px;width: 50px">
+                    </div>
                 </div>
-
-
-                <div class="col-md-6 text-justify my-5">
-                    <h1 class="display-3 ml-auto mb-4">CFTV<img src="img/cam.png" class="float-right"></h1>
-
-
-                    <ul class="list-group list-group-flush bg-secondary">
-                        <li class="list-group-item bg-secondary">Câmeras de segurança</li>
-                        <li class="list-group-item bg-secondary">Monitoramento</li>
-                        <li class="list-group-item bg-secondary">Empresarial</li>
-                        <li class="list-group-item bg-secondary">Residencial</li>
-                        <li class="list-group-item bg-secondary">Equipamentos</li>
-                        <li class="list-group-item bg-secondary">Rede</li>
-                    </ul>
-
-
+                <div class="col-md mx-auto">
+                    <div class="text-center text-justify">
+                        <h6 class="font-weight-bold text-white py-2 cardh">ENDEREÇO</h6>
+                        <p class="text-white lead"> Avenida Deputado Emilio Carlos - 118 - Sala 10<br>
+                            Bairro do Limão<br>
+                            São Paulo - SP CEP:02720-000<br>
+                            <a href="https://goo.gl/maps/aStbtBb6v9n">Como Chegar</a></p>
+                    </div>
+                </div>
+                <div class="col-md mx-auto">
+                    <h6 class="font-weight-bold text-white py-2 text-center cardh">PARCEIROS</h6>
+                    <div class="text-center mb-4">
+                        <img src="img/ICON/Bitdefender.png" class="img-responsive" style="height: 50px;width: 50px">
+                        <img src="img/ICON/intelbras-logo-verde-fb.png" class="img-responsive" style="height: 50px;width: 50px">
+                        <img src="img/ICON/samsung-226432.png" class="img-responsive" style="height: 50px;width: 50px">
+                        <img src="img/ICON/md_5a9797cec51f9.png" class="img-responsive" style="height: 50px;width: 50px">
+                    </div>
                 </div>
             </div>
-
         </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="page-footer font-small bg-dark text-light">
-
-        <!-- Footer Links -->
-        <div class="container">
-
-            <!-- Grid row-->
-            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-2 mb-3">
-                    <h5 class="text-uppercase font-weight-bold">
-                        <a href="#!">Como chegar:
-                        </a></h5>
-                </div>
-            </div>
-
-            <!-- Grid row-->
-            <hr class="rgba-white-light" style="margin: 0 15%;">
-
-            <!-- Grid row-->
-            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-
-                <!-- Grid column -->
-                <div class="col-md-8 mt-5">
-                    
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8099656777135!2d-46.67426938502342!3d-23.503353384711755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8203b52c009%3A0x34aeb4b91a5a6a88!2sAv.+Dep.+Em%C3%ADlio+Carlos%2C+118+-+Lim%C3%A3o%2C+S%C3%A3o+Paulo+-+SP%2C+02551-060!5e0!3m2!1spt-BR!2sbr!4v1537895763423" allowfullscreen ></iframe>
-                </div>
-
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid row-->
-            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-        </div>
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="#">FLAKS</a>
-        </div>
-
-        <!-- Copyright -->
-
     </footer>
     <!-- Footer -->
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-
 </body>
 
 </html>
