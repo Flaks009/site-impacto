@@ -7721,15 +7721,31 @@ a.text-snowh:focus, a.text-snowh:hover {
 }
 
 .gradiente {
-  background-image: linear-gradient(#343a40, #FFFAFA);
+  background-image: linear-gradient(#808080, #000000);
 }
 
 .inversegradi {
-  background-image: linear-gradient(#FFFAFA, #343a40);
+  background-image: linear-gradient(#404040, #808080);
 }
 
 .navbar {
   font-family: "Audiowide", cursive;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.cardh {
+  font-family: "Audiowide", cursive;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:focus,
+.navbar .navbar-nav > .active > a:hover {
+  color: yellow;
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
